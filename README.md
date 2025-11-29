@@ -10,11 +10,11 @@ Changes: summarized and adapted.
 
 # Chapter 1 summary     
 What is AI? History of AI. Philosphy of AI.     
-[Chapter1](/chapter1.md)
+[Chapter1](chapter1.md)
 
 # Chapter 2 summary 
 Search and problem solving of AI. BFS, DFS, Best first search. A*. Minimax. Alpha-beta-pruning.    
-[Chapter2](/chapter2.md) 
+[Chapter2](chapter2.md) 
 
 # Chapter 3 summary
 Probability. Bayes. Naive Bayes. Bayesian networks.     
