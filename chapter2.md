@@ -17,10 +17,14 @@ This process is a core AI skill.
 
 # 2. Basic Search Algorithms (Prerequisites)
 AI search relies on foundational traversal algorithms:
-- **Breadth-First Search (BFS)** – explores all nodes layer by layer; finds the shortest path in unweighted graphs.
+- **Breadth-First Search (BFS)** – explores all nodes layer by layer; finds the shortest path in unweighted graphs. 
+[Michael Sambol BFS](https://www.youtube.com/watch?v=HZ5YTanv5QE&t=36s)
 - **Depth-First Search (DFS)** – explores one branch deeply before backtracking; uses little memory but may get stuck.
+[Michael Sambol DFS](https://www.youtube.com/watch?v=Urx87-NMm6c&t=91s)
 - **Best-First Search** – uses a heuristic to explore promising nodes first.
+[Education 4u - Best first search](https://www.youtube.com/watch?v=i4MA_hFkKDg)
 - **A\*** – a special case of best-first search; combines cost so far (*g*) and heuristic estimate (*h*). Finds optimal solutions when the heuristic is admissible.
+[Tarodev A\*](https://www.youtube.com/watch?v=i0x5fj4PqP4&t=199s)
 
 These algorithms are essential for solving structured search problems.
 
@@ -65,6 +69,8 @@ It visualizes the entire search space.
 # 5. Example: Wolf–Goat–Cabbage Puzzle
 The text uses a classic puzzle to illustrate search concepts.
 
+[Graph theory: Wolf, sheep, cabbage](https://www.youtube.com/watch?v=pBT-8gqhHzo)
+
 ## 5.1 Puzzle Setup
 A farmer must move:
 - a wolf (w),
@@ -78,7 +84,7 @@ Rules:
 - Goat cannot be left alone with the cabbage.
 
 
-[Graph theory: Wolf, sheep, cabbage](https://www.youtube.com/watch?v=pBT-8gqhHzo)
+
 
 ## 5.2 Representing States
 A state describes which riverbank contains each entity, e.g.:
@@ -322,6 +328,7 @@ Nodes in the priority queue are ordered by a numerical value (cost or heuristic)
 
 # 3. Dijkstra’s Algorithm
 A special case of best-first search.
+[Spanning tree - Dijktra's](https://www.youtube.com/watch?v=EFg3u_E6eHU)
 
 ### Definition
 Dijkstra’s algorithm always expands the node with the **smallest accumulated path cost** from the start.
@@ -463,3 +470,7 @@ A* in particular is one of the **most important algorithms in AI**, used in:
 - routing,
 - planning.
 
+# Minimax 
+
+* [minimax video 1](https://www.youtube.com/watch?v=l-hh51ncgDI)
+* [minimax video 2](https://www.youtube.com/watch?v=SLgZhpDsrfc&t=735)
